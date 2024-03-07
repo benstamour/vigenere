@@ -3,6 +3,9 @@ Vigenère Cipher
 
 This repository is my first project using Vue.js; it contains a program to encrypt and decrypt messages using the Vigenère cipher. You can access the website version of this [here](https://bensta.epizy.com/vigenere).
 
+A Brief Explanation of Vigenère
+-------------------------------
+
 A common type of cipher is the Caesar cipher, where each letter in a message is shifted a certain number of letters. For example, using a Caesar cipher where we shift each letter right by 3, A would become D, B would become E, and so on. Using this shift, HELLO WORLD would become KHOOR ZRUOG.
 
 With the Vigenère cipher, each letter of the code is encoded using a different Caesar cipher, where each shift is determined using a key. For example, to encode the message HELLO WORLD using the key BEN, we would do the following:
