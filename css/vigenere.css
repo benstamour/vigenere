@@ -1,0 +1,73 @@
+body
+{
+	font-family: Alice;
+	background-color: #f7f1da;
+	color: #523b06;
+	font-size: 24px;
+}
+.title
+{
+	font-family: Metamorphous;
+}
+.letterbtn
+{
+	font-family: Alice;
+	font-size: 36px;
+	height: 50px;
+	width: 50px;
+	display: inline-flex;
+	align-items: center;
+	justify-content: space-around;
+}
+#encoded, #decoded
+{
+	font-family: Metamorphous;
+	font-size: 36px;
+}
+input
+{
+	text-transform: uppercase;
+}
+table
+{
+	margin-left: auto;
+	margin-right: auto;
+}
+/*td, th
+{
+	border: 1px solid black;
+}*/
+td, th
+{
+	padding-left: 10px;
+	padding-right: 10px;
+}
+::selection {
+	color: #f7f1da;
+	background: #523b06;
+}
+.inputtable input
+{
+	margin-top: 5px;
+	margin-bottom: 5px;
+	
+	border: 1px solid #523b06;
+	color: #523b06;
+	background-color: #f7f1da;
+}
+.inputtable input:focus
+{
+	outline: 3px solid #523b06 !important;
+}
+.btn-outline-primary
+{
+	border: 1px solid #523b06 !important;
+	color: #523b06;
+	background-color: #f7f1da;
+	font-size: 20px;
+}
+.btn-outline-primary:hover, .btn-check:checked + .btn
+{
+	color: #f7f1da !important;
+	background-color: #523b06 !important;
+}
